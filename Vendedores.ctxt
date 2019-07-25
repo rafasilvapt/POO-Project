@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=email\ nome\ password\ morada\ data\ imoveis_mercado\ imoveis_vendidos
+comment0.target=Vendedores(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.util.ArrayList,\ java.util.ArrayList)
+comment1.params=v
+comment1.target=Vendedores(Vendedores)
+comment2.params=
+comment2.target=java.util.ArrayList\ getImoveis_mercado()
+comment3.params=
+comment3.target=java.util.ArrayList\ getImoveis_vendidos()
+comment4.params=imoveis_mercado
+comment4.target=void\ setImoveis_mercado(java.util.ArrayList)
+comment5.params=imoveis_vendidos
+comment5.target=void\ setImoveis_vendidos(java.util.ArrayList)
+numComments=6
