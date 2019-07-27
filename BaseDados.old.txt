@@ -1,0 +1,10 @@
+Moradia>Rua Dr.Barros,57349.0,44697.0,0,isolada,100.4,300.3,770.2,2,2,121,1
+Terreno>Rua Carriche,38181.0,37661.0,0,285.0,Habitação,125.0,513,false,2
+Apartamento>Rua Julião,29756.0,22831.0,10,Triplex,10.0,1,1,1,1,true,3
+Loja>Rua Acis Castilho,67144.0,56681.0,215,69.0,true,24,Lavandaria,4
+LojaHabitavel>Rua Travessa Seis,120000.0,100000.0,0,320.0,true,241,Restaurante,Triplex,430.0,3,4,241,1,true,5
+Vendedor>aa,aa,aa,aa,1994-10-22,1;2,4;5
+Comprador>bb,bb,bb,bb,1994-10-22,1;2;3;4
+Comprador>leo@leo.pt,leo,leo,leoStreet,1995-7-8,1;2;3;4
+Comprador>rafa@rafa.pt,rafa,rafa,rafaStreet,1995-3-25,1;2;3;4
+Comprador>tito@tito.pt,tito,tito,titoStreet,1994-10-22,1;2;3;4

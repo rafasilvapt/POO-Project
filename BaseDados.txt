@@ -1,0 +1,93 @@
+Moradia>Rua Dr. Abelardo de Barros,67349.0,64697.0,0,isolada,100.0,300.0,770.0,2,2,121,1
+Moradia>Rua Basiléia,72747.0,53366.0,1,geminada,125.0,450.0,802.0,4,3,18,2
+Moradia>Rua das tias,68598.0,52950.0,2,banda,85.0,150.2,200.3,2,2,68,3
+Moradia>Rua Bom Pastor,61000.0,50000.0,3,gaveto,172.0,313.0,400.0,4,4,110,4
+Moradia>Rua Prof. Gabizo,33815.0,33815.0,4,isolada,85.0,120.0,150.0,2,2,69,5
+Moradia>Rua Abreu Vieira,73819.0,58573.0,0,isolada,225.0,250.0,375.0,3,3,10,6
+Moradia>Rua Garibaldi,59990.0,51959.0,0,geminada,205.0,221.0,320.0,4,3,7,7
+Moradia>Rua Alfredo Pinto,55203.0,20025.0,0,geminada,100.0,150.0,130.0,3,2,69,8
+Moradia>Rua Eng. Adel,60669.0,57860.0,0,banda,96.0,120.0,96.0,3,3,11,9
+Moradia>Rua Adolfo Mota,33867.0,28398.0,0,isolada,60.0,120.0,200.0,2,2,22,10
+Moradia>Rua Garibaldi,73092.0,47474.0,0,gaveto,215.0,349.0,357.0,3,3,114,11
+Moradia>Rua São Francisco Xavier,70419.0,57859.0,0,banda,93.0,93.0,93.0,3,2,45,12
+Moradia>Rua Afonso Pena,44908.0,31541.0,0,gaveto,350.0,400.0,410.0,4,3,64,13
+Terreno>Rua Belvedere,59061.0,25927.0,0,Habitaçao,425.0,263.0,513,false,14
+Terreno>Rua Benjamin Franklin,73092.0,47474.0,0,Habitaçao,182.0,125.0,263,false,15
+Terreno>Rua Aguiar,28398.0,22000.0,0,Habitaçao,335.0,125.0,513,false,16
+Terreno>Rua Agostinho,67153.0,51914.0,0,Habitaçao,308.0,125.0,263,false,17
+Terreno>Rua Benjamin Franklin,36236.0,32248.0,0,Habitaçao,210.0,95.0,513,false,18
+Terreno>Rua Acis Castilho,35012.0,23200.0,0,Habitaçao,210.0,95.0,513,false,19
+Terreno>Rua João Baumhardt,61751.0,55928.0,0,Habitaçao,123.0,150.0,263,false,20
+Terreno>Rua da Alfândega,48552.0,32604.0,0,Habitaçao,400.0,95.0,513,false,21
+Terreno>Rua do Arsenal,59990.0,51959.0,0,Habitaçao,132.0,95.0,263,false,22
+Terreno>Rua Augusta,54607.0,41517.0,0,Habitaçao,631.0,150.0,513,false,23
+Terreno>Rua dos Bacalhoeiros,48552.0,32604.0,0,Habitaçao,440.0,150.0,263,false,24
+Terreno>Rua do Carmo,49092.0,29599.0,0,Habitaçao,234.0,150.0,513,false,25
+Terreno>Rua Calçada de Carriche,28181.0,27661.0,0,Habitaçao,285.0,125.0,513,false,26
+Terreno>Rua Cidade de Bolama,49092.0,29599.0,0,Habitaçao,235.0,150.0,513,false,27
+Terreno>Rua Estrada da Circunvalação de Lisboa,39211.0,25498.0,0,Armazem,346.0,150.0,513,false,28
+Terreno>Rua Estrada Militar,49976.0,36955.0,0,Armazem,252.0,150.0,513,false,29
+Terreno>Rua Garrett,52833.0,49092.0,0,Armazem,351.0,125.0,263,false,30
+Terreno>Rua Heróis de Quionga,28181.0,27661.0,0,Armazem,369.0,150.0,513,false,31
+Terreno>Rua do Instituto Bacteriológico,50307.0,34471.0,0,Armazem,234.0,95.0,513,false,32
+Terreno>Rua da Madalena,58626.0,50307.0,0,Armazem,126.0,150.0,513,false,33
+Terreno>Rua Calçada do Marquês de Abrantes,52833.0,49092.0,0,Armazem,340.0,125.0,513,false,34
+Terreno>Rua Calçada do Moinho de Vento,69038.0,32548.0,0,Armazem,250.0,150.0,263,false,35
+Terreno>Rua da Oliveira ao Carmo,70505.0,69038.0,0,Armazem,200.0,125.0,513,false,36
+Terreno>Rua Calçada do Poço dos Mouros,52833.0,49092.0,0,Armazem,100.0,150.0,513,false,37
+Terreno>Rua da Prata,39211.0,25498.0,0,Armazem,200.0,125.0,263,false,38
+Terreno>Rua Avenida Ressano Garcia,58478.0,57857.0,0,Armazem,269.0,95.0,513,false,39
+Terreno>Rua Roberto Duarte Silva,70505.0,69038.0,0,Armazem,145.0,150.0,263,false,40
+Apartamento>Rua da Betesga,59612.0,36426.0,0,Simples,110.0,2,2,23,1,true,41
+Apartamento>Rua do Comércio,65765.0,59612.0,0,Simples,110.0,2,2,24,1,true,42
+Apartamento>Rua dos Fanqueiros,48672.0,27052.0,0,Duplex,110.0,2,2,25,1,true,43
+Apartamento>Rua Ferreira Lapa,67163.0,48672.0,0,Triplex,210.0,2,2,26,1,true,44
+Apartamento>Rua General Morais Sarmento,53685.0,29756.0,0,Simples,210.0,2,2,27,1,true,45
+Apartamento>Rua Júlio César Machado,72033.0,66794.0,0,Simples,210.0,2,2,27,1,true,46
+Apartamento>Rua Nova do Almada,42214.0,36776.0,0,Duplex,210.0,2,2,29,1,true,47
+Apartamento>Rua do Salitre,52174.0,26691.0,0,Simples,210.0,2,2,30,1,true,48
+Apartamento>Rua de São Julião,29756.0,22831.0,0,Triplex,240.0,3,2,31,1,true,49
+Apartamento>Rua de São Mamede,72033.0,66794.0,0,Simples,210.0,2,2,30,1,true,50
+Apartamento>Rua do Sacramento à Lapa,62095.0,60837.0,0,Triplex,240.0,3,2,34,1,false,52
+Apartamento>Rua de São Bento,61751.0,55928.0,0,Triplex,240.0,3,2,35,1,false,53
+Apartamento>Rua Travessa de São João da Praça,49719.0,36245.0,0,Duplex,210.0,2,2,30,1,true,54
+Apartamento>Rua do Sol a Santana,52506.0,35012.0,0,Duplex,320.0,3,2,45,1,false,55
+Loja>Rua da Madalena,48552.0,32604.0,0,335.0,true,15,Venda de Discos,56
+Loja>Rua Calçada do Marquês de Abrantes,66291.0,29164.0,0,235.0,true,110,Loja de instrumentos,57
+Loja>Rua Vicente Borga,72747.0,53366.0,0,285.0,true,24,Loja de Musica,58
+Loja>Rua de São Mamede,73092.0,47474.0,0,110.0,true,56,Loja de perfumes,59
+Loja>Rua General Morais Sarmento,73384.0,67560.0,0,112.0,true,47,Loja de sandes,60
+Loja>Rua Ferreira Lapa,70419.0,57859.0,0,108.0,true,67,Farmacia,61
+Loja>Rua do Instituto Bacteriológico,44908.0,31541.0,0,150.0,true,22,Mercearia,62
+Loja>Rua Calçada do Moinho de Vento,69797.0,61409.0,0,130.0,true,69,Discuteca,63
+Loja>Rua da Oliveira ao Carmo,68598.0,37581.0,0,579.0,true,21,Bar,64
+Loja>Rua Calçada do Poço dos Mouros,45420.0,33815.0,0,175.0,true,44,Restaurante,65
+Loja>Rua do Sacramento à Lapa,68076.0,34243.0,0,180.0,true,33,Café,66
+Loja>Rua da Prata,69958.0,56161.0,0,245.0,true,66,Ginario,67
+Loja>Rua Júlio César Machado,52950.0,38802.0,0,350.0,true,129,Bowling,68
+Loja>Rua Acis Castilho,67144.0,56681.0,0,215.0,true,24,Lavandaria,69
+Loja>Rua Agostinho,74550.0,47796.0,0,235.0,false,14,Textil,70
+Loja>Rua Aguiar,61015.0,25577.0,0,430.0,true,25,Loja de roupas,71
+Loja>Rua Afonso Pena,61751.0,55928.0,0,310.0,false,29,Talho,72
+Loja>Rua Belvedere,62095.0,60837.0,0,270.0,false,55,Desporto,73
+LojaHabitavel>Rua Avenida Presidente Venceslau,75654.0,64100.0,0,210.0,true,24,Talho,Simples,210.0,2,2,24,1,false,74
+LojaHabitavel>Rua Adherbal de Carvalho,54000.0,47000.0,0,240.0,true,127,Café,Duplex,320.0,3,2,127,2,true,75
+LojaHabitavel>Rua Travessa Seis,120000.0,100000.0,0,320.0,true,240,Restaurante,Triplex,430.0,3,4,240,1,true,76
+LojaHabitavel>Rua Júlio César Machado,52950.0,38802.0,0,210.0,true,12,Pizzaria,Simples,210.0,3,3,12,2,true,77
+LojaHabitavel>Rua Calçada do Moinho de Vento,69038.0,32548.0,0,150.0,true,53,Loja de Desporto,Duplex,150.0,3,2,53,1,true,78
+LojaHabitavel>Rua Heróis de Quionga,28181.0,27661.0,0,110.0,true,123,Restaurante,Simples,110.0,3,2,123,1,true,79
+LojaHabitavel>Rua Agostinho,67153.0,51914.0,0,95.0,true,53,Café,Duplex,95.0,2,2,53,1,false,80
+LojaHabitavel>Rua Eng. Adel,60669.0,57860.0,0,250.0,true,12,Bar,Simples,250.0,3,2,12,1,true,81
+LojaHabitavel>Rua Travessa de São João da Praça,49719.0,36245.0,0,179.0,true,53,Loja dos 300,Simples,179.0,2,2,53,1,false,82
+LojaHabitavel>Rua Garrett,52833.0,49092.0,0,200.0,true,68,Floreira,Simples,200.0,2,2,68,2,true,83
+LojaHabitavel>Rua Alfredo Pinto,55203.0,20025.0,0,210.0,true,21,Textil,Duplex,210.0,2,2,21,1,true,84
+LojaHabitavel>Rua Estrada Militar,49976.0,36955.0,0,190.0,true,88,Mercado,Duplex,190.0,3,2,88,1,false,85
+Terreno>rua,20.0,18.0,0,Simples,30.0,40.0,20,false,86
+Vendedor>aa,aa,aa,aa,1994-10-22,3;4;86;86;86;86;86,45;23;2;1
+Comprador>bb,bb,bb,bb,1994-10-22,1;2;3;4,2;3;4;39
+Comprador>leo@leo.pt,leo,leo,leoStreet,1995-7-8,1;2;3;4,3;4
+Vendedor>leonel@vendedor.pt,leonel,leo123,Rua do Leonel,1995-7-8,12;23;15;47,2;11;55;22
+Comprador>rafa@rafa.pt,rafa,rafa,rafaStreet,1995-3-25,1;2;3;4,3;4
+Vendedor>rafael@vendedor.pt,rafael,rafa123,Rua do Rafael,1995-3-25,9;27;37;51,18;63;45;33
+Vendedor>tiago@vendedor.pt,tiago,tito123,Rua do Tiago,1994-10-22,16;22;30;43,64;12;22;34
+Comprador>tito@tito.pt,tito,tito,titoStreet,1994-10-22,1;2;3;4,3;4

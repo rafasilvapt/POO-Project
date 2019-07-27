@@ -1,18 +1,19 @@
 import java.util.GregorianCalendar;
 import java.util.ArrayList;
 
-public class Moradia extends Imoveis{
+public class Moradia extends Imovel{
     private String tipo; //isolada, geminada, banda, gaveto
     private double area_implantacao;
     private double area_coberta;
     private double area_terreno;
-    private int num_quartos;
-    private int num_wcs;
-    private int num_porta;
+    private Integer num_quartos;
+    private Integer num_wcs;
+    private Integer num_porta;
     
-    public Moradia(String rua, double preco_pedido, double preco_aceite,
-                    String tipo, double area_implatacao, double area_coberta, double area_terreno, int num_quartos, int num_wcs, int num_porta){
-        super(rua, preco_pedido, preco_aceite);
+    public Moradia(String rua, double preco_pedido, double preco_aceite, Integer consultas, Integer id,
+                    String tipo, double area_implantacao, double area_coberta, double area_terreno, 
+                    Integer num_quartos, Integer num_wcs, Integer num_porta){
+        super(rua, preco_pedido, preco_aceite, consultas, id);
         this.tipo = tipo;
         this.area_implantacao = area_implantacao;
         this.area_coberta = area_coberta;
@@ -22,7 +23,7 @@ public class Moradia extends Imoveis{
         this.num_porta = num_porta;
     }
     public Moradia(Moradia m){
-        super(m.getRua(), m.getPreco_pedido(), m.getPreco_aceite());
+        super(m.getRua(), m.getPreco_pedido(), m.getPreco_aceite(), m.getConsultas(), m.getID());
         tipo = m.getTipo();
         area_implantacao = m.getArea_implantacao();
         area_coberta = m.getArea_coberta();
@@ -35,51 +36,75 @@ public class Moradia extends Imoveis{
     public double getArea_implantacao(){return area_implantacao;}
     public double getArea_coberta(){return area_coberta;}
     public double getArea_terreno(){return area_terreno;}
-    public int getNum_quartos(){return num_quartos;}
-    public int getNum_wcs(){return num_wcs;}
-    public int getNum_porta(){return num_porta;}
+    public Integer getNum_quartos(){return num_quartos;}
+    public Integer getNum_wcs(){return num_wcs;}
+    public Integer getNum_porta(){return num_porta;}
+    public int getConsultas() {
+        return consultas;
+    }
     
     public void setTipo(String tipo){this.tipo = tipo;}
     public void setArea_implantacao(double area_implantacao){this.area_implantacao = area_implantacao;}
     public void setArea_coberta(double area_coberta){this.area_coberta = area_coberta;}
     public void setArea_terreno(double area_terreno){this.area_terreno = area_terreno;}
-    public void setNum_quartos(int num_quartos){this.num_quartos = num_quartos;}
-    public void setNum_wcs(int num_wcs){this.num_wcs = num_wcs;}
-    public void setNum_porta(int num_porta){this.num_porta = num_porta;}
+    public void setNum_quartos(Integer num_quartos){this.num_quartos = num_quartos;}
+    public void setNum_wcs(Integer num_wcs){this.num_wcs = num_wcs;}
+    public void setNum_porta(Integer num_porta){this.num_porta = num_porta;}
 
-    //clone
     public Moradia clone(){
         return new Moradia(this);
     }
-    
-    // equals
-    public boolean equals (Object m){
-        if (this == m) return true;
-        if ((m == null) || (this.getClass() != m.getClass())) return false;
 
-        Moradia me = (Moradia) m;
-        return (this.tipo.equals(me.getTipo()) && this.area_implantacao == me.getArea_implantacao() && this.area_coberta == me.getArea_coberta() && this.area_terreno == me.getArea_terreno()  && this.num_quartos == me.getNum_quartos() && this.num_wcs == me.getNum_wcs() && this.num_porta == me.getNum_porta());
+    public boolean equals(Object o){
+        if(this == o)
+            return true;
+
+        if((o == null) || (this.getClass() != o.getClass()))
+            return false;
+
+        Moradia a = (Moradia)o;
+        return (this.rua.equals(a.getRua()) &&
+                this.preco_pedido == a.getPreco_pedido() &&
+                this.preco_aceite == a.getPreco_aceite() &&
+                this.consultas == a.getConsultas() &&
+                this.tipo.equals(a.getTipo()) &&
+                this.area_implantacao == a.getArea_implantacao() &&
+                this.area_coberta == a.getArea_coberta() &&
+                this.area_terreno == a.getArea_terreno() &&
+                this.num_quartos.equals(a.getNum_quartos()) &&
+                this.num_wcs.equals(a.getNum_wcs()) &&
+                this.num_porta.equals(a.getNum_porta()));
     }
 
-    //toString
+    // Para mostrar no menu
     public String toString(){
         StringBuilder sb = new StringBuilder();
+        sb.append("Rua: "+this.rua+"\n");
+        sb.append("Preço pedido: "+this.preco_pedido+"\n");
+        sb.append("Tipo: "+this.tipo+"\n");
+        sb.append("Area implantacao: "+this.area_implantacao+"\n");
+        sb.append("Area total coberta: "+this.area_coberta+"\n");
+        sb.append("Area terreno envolvente: "+this.area_terreno+"\n");
+        sb.append("Nº quartos: "+this.num_quartos+"\n");
+        sb.append("Nº wcs: "+this.num_wcs+"\n");
+        sb.append("Nº porta: "+this.num_porta+"\n");
+        return sb.toString();
+    }
 
-        sb.append("Tipo: ");
-        sb.append(this.getTipo() + " | ");
-        sb.append("Area Implantação: ");
-        sb.append(this.getArea_implantacao() + " | ");
-        sb.append("Area Coberta: ");
-        sb.append(this.getArea_coberta() + " | ");
-        sb.append("Area do Terreno: ");
-        sb.append(this.getArea_terreno() + " | ");
-        sb.append("Numero de quartos: ");
-        sb.append(this.getNum_quartos() + " | ");
-        sb.append("Numero de WC: ");
-        sb.append(this.getNum_wcs() + " | ");
-        sb.append("Numero da porta: ");
-        sb.append(this.getNum_porta() + " | ");
-
+    // Para guargar no ficheiro
+    public String formatoGravar(){
+        StringBuilder sb = new StringBuilder();
+        sb.append(this.rua+",");
+        sb.append(this.preco_pedido+",");
+        sb.append(this.preco_aceite+",");
+        sb.append(this.consultas+",");
+        sb.append(this.tipo+",");
+        sb.append(this.area_implantacao+",");
+        sb.append(this.area_coberta+",");
+        sb.append(this.area_terreno+",");
+        sb.append(this.num_quartos+",");
+        sb.append(this.num_wcs+",");
+        sb.append(this.num_porta);
         return sb.toString();
     }
 }

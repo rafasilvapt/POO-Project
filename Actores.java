@@ -3,25 +3,28 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.io.*;
 
-public class User {
+public abstract class Actores {
     public String email, nome, password, morada;
     public GregorianCalendar data_nascimento;
 
-    public User(){
+    public Actores(){
         this("","","","","");
     }
-    public User(String email, String nome, String password, String morada, String data){
+    public Actores(String email, String nome, String password, String morada, String data){
         this.email = email;
         this.nome = nome;
         this.password = password;
         this.morada = morada;
+        String ano = data.split("-",3)[0];
+        String mes = data.split("-",3)[1];
+        String dia = data.split("-",3)[2];
         this.data_nascimento = new GregorianCalendar(
-                Integer.parseInt(data.split("-",3)[0]),
-                Integer.parseInt(data.split("-",3)[1]),
-                Integer.parseInt(data.split("-",3)[2])
-                );
+                Integer.parseInt(ano),
+                Integer.parseInt(mes),
+                Integer.parseInt(dia)
+        );
     }
-    public User(User g){
+    public Actores(Actores g){
         email = g.getEmail();
         nome = g.getNome();
         password = g.getPassword();
@@ -60,18 +63,15 @@ public class User {
         this.data_nascimento = new GregorianCalendar(Integer.parseInt(data.split("-",3)[0]),  Integer.parseInt(data.split("-",3)[1]), Integer.parseInt(data.split("-",3)[2]));
     }
 
-    public User clone(){
-        return new User(this);
-    }
 
-    public boolean equals(User utilizador){
+    public boolean equals(Actores utilizador){
         if(this == utilizador) return true;
-        if((utilizador == null) 
-            || (this.getClass() != utilizador.getClass())
-        )
+        if((utilizador == null)
+                || (this.getClass() != utilizador.getClass())
+                )
             return false;
         else{
-            User u = (User) utilizador;
+            Actores u = (Actores) utilizador;
             return(this.email.equals(u.getEmail())
                     && this.nome.equals(u.getNome())
                     && this.password.equals(u.getPassword())
@@ -80,21 +80,5 @@ public class User {
             );
         }
     }
-
-    public String toString(){
-        StringBuilder sb = new StringBuilder();
-        sb.append("Email: ");
-        sb.append(this.getEmail()+"\n");
-        sb.append("Nome: ");
-        sb.append(this.getNome()+"\n");
-        sb.append("Password: ");
-        sb.append(this.getPassword()+"\n");
-        sb.append("Morada: ");
-        sb.append(this.getMorada()+"\n");
-        sb.append("Data de nascimento :");
-        sb.append(this.getData_nascimento().get(Calendar.DAY_OF_MONTH)+"/"+this.getData_nascimento().get(Calendar.MONTH)+"/"+this.getData_nascimento().get(Calendar.YEAR)+"\n");
-        return sb.toString();
-    }
-
-
 }
+

@@ -1,6 +1,15 @@
-import java.util.GregorianCalendar;
-import java.util.ArrayList;
 
-public class Main {
+/**
+ * Escreva a descrição da classe Main aqui.
+ * 
+ * @author (seu nome) 
+ * @version (número de versão ou data)
+ */
+public class Main{
 
+    public static void Main(){
+        
+        Menu c = new Menu();
+    }
+    
 }
